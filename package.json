@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "remote": "bash git-remote.sh",
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
