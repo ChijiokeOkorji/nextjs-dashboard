@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "remote": "bash git-remote.sh",
+    "remote": "bash remote.sh",
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
